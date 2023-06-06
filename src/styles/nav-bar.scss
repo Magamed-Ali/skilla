@@ -1,0 +1,44 @@
+.nav-bar{
+  box-sizing: border-box;
+  width: 240px;
+  height: 100vh;
+  background: #091336;
+
+  ul {
+    padding: 0;
+    li {
+      list-style-type: none;
+      padding: 15px 22px 17px 12px;
+      font-family: 'SF Pro Display';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  img{
+    margin: 23px  0 47px 12px;
+
+  }
+
+  svg{
+    width: 22px;
+    height: 12px;
+    padding-right: 5px;
+  }
+
+  .logo {
+    color: white!important;
+    fill: #fff;
+    border-left: 3px solid #002CFB;
+    background-color: rgba(216, 228, 251, 0.32);
+    background-image: url('../images/new.svg');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: calc(100% - 20px) 50%;
+  }
+}
